@@ -1,0 +1,8 @@
+# Core AI and LLM dependencies
+langchain-openai>=0.1.0
+langchain-azure-ai>=0.1.5
+langchain-core>=0.2.0
+foundry-local>=0.1.0
+
+# Rich terminal UI dependencies
+rich>=13.0.0
