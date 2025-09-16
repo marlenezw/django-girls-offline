@@ -65,7 +65,7 @@ async def execute_function_calls(name, args):
 async def main():
     server_params = StdioServerParameters(
         command="python",
-        args=["dj_server.py"],
+        args=["django_girls_mcp_server.py"],
     )
 
     async with stdio_client(server_params) as (read, write):
